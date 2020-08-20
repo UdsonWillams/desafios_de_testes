@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DesafioLogin" />
         <module name="desafioLogarGuru99" />
+        <module name="Desafios" />
       </profile>
     </annotationProcessing>
   </component>
