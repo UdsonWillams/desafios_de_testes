@@ -1,4 +1,4 @@
-package br.com.desafioDeTeste;
+package br.com.desafioDeTeste.Teste;
 
 
 import org.junit.Assert;

@@ -1,4 +1,4 @@
-package br.com.desafioDeTeste;
+package br.com.desafioDeTeste.Teste;
 
 
 import org.apache.commons.io.FileUtils;
@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import java.io.File;
 
 public class screenShot {
-    public static void takeSnapShot(WebDriver webdriver, String fileWithPath) throws Exception {
+    public void takeSnapShot(WebDriver webdriver, String fileWithPath) throws Exception {
 //Converte o objeto web driver para tirar um print
         TakesScreenshot scrShot = ((TakesScreenshot) webdriver);
 //chamao metodo getScreenshotAs para criar uma imagem
